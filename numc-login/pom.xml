@@ -11,10 +11,40 @@
 
     <artifactId>numc-login</artifactId>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <name>Message center</name>
+    <url>https://github.com/JavaNickUli/numc</url>
+    <description>Project for message centered usage</description>
+
+    <developers>
+        <developer>
+            <email>xlloid@mail.ru</email>
+            <name>Nick Uli</name>
+            <url>https://github.com/JavaNickUli</url>
+            <id>NickUli</id>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- Spring-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+        <!-- End Spring-->
+    </dependencies>
 
 </project>

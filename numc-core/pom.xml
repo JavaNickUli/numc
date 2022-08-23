@@ -11,6 +11,27 @@
 
     <artifactId>numc-core</artifactId>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <name>Message center</name>
+    <url>https://github.com/JavaNickUli/numc</url>
+    <description>Project for message centered usage</description>
+
+    <developers>
+        <developer>
+            <email>xlloid@mail.ru</email>
+            <name>Nick Uli</name>
+            <url>https://github.com/JavaNickUli</url>
+            <id>NickUli</id>
+        </developer>
+    </developers>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
